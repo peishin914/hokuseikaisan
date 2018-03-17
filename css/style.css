@@ -54,7 +54,9 @@ Version: 1.0
 -------------------------------------------------------------------*/
 /* [ GENERAL ] */
 /*================================================== */
-
+.margin_top{
+        margin-top: 100px;
+}
 body {
     font: 14px/22px "Raleway", Arial, Helvetica, sans-serif;
     color: #6e6e6e;
@@ -69,7 +71,7 @@ body {
     background-color: #fff;
 }
 .section-overlay {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 90px 0;
 }
 .about .container,
@@ -474,7 +476,7 @@ body.reversed-skew .contact {
 }
 body.reversed-skew .contactform {
     margin-top: -150px;
-    border-top: 60px solid #efefef;
+    border-top: 60px solid #fff;
 }
 body.reversed-skew .contact .container {
     padding: 70px 0 70px;
@@ -800,7 +802,13 @@ p {
     margin-bottom: 15px;
     margin-top: 0px;
     color: #666;
+    text-align: left;
 }
+
+.testimonials h1{text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;}
+.testimonials h4{text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;}
+.facts h1{text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;}
+.facts h4{text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;}
 .top-text h4 {
     margin: 15px 0 25px;
     font-weight: 400;
@@ -1333,7 +1341,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 .about-right-side .full-image-container.hovered:before {
     width: 90%;
     right: 5%;
-    opacity: 1;
+/*    opacity: 1;*/
     filter: alpha(opacity=100);
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
@@ -1386,7 +1394,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 
 .projectmanager {
     color: #fff;
-    background-image: url("../img/sections/projectmanager-bg.jpg");
+    background-image: url("../img/sections/bg_soko.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1396,10 +1404,11 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     padding: 90px 0 120px;
 }
 .projectmanagerpicture {
-    border-radius: 50%;
+/*    border-radius: 50%;*/
 }
 .projectmanager h1 {
     margin-bottom: 20px;
+    text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;
 }
 .projectmanager h3 {
     margin-top: 10px;
@@ -1418,10 +1427,11 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 	border-left: 5px solid #eee;
 	padding-left:20px;
 }
+.projectmanager h4{text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;}
 .projectmanager p,
 .projectmanager blockquote {
     margin-top: 30px;
-    font-style: italic;
+    text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;
 }
 .projectmanager li:hover,
 .projectmanager li:hover a,
@@ -1578,7 +1588,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 ---------------------------------------- */
 
 .testimonials {
-    background: url("../img/sections/testimonials-bg.jpg");
+    background: url("../img/soko_bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1601,21 +1611,16 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     border: none;
 }
 .testimonials #quote-carousel p {
-    font-style: italic;
     color: #fff;
+    width: 60%;
+    margin: auto;
+    text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;
 }
 .testimonials #quote-carousel p:before,
 .testimonials #quote-carousel p:after {
     font-family: "FontAwesome";
 }
-.testimonials #quote-carousel p:before {
-    margin-right: 20px;
-    content: "\f10d";
-}
-.testimonials #quote-carousel p:after {
-    margin-left: 20px;
-    content: "\f10e";
-}
+
 .testimonials #quote-carousel h5 {
     margin: 20px 0 10px;
     font-size: 20px;
@@ -1786,8 +1791,53 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 .featured-thumbnail a:hover .zoom-icon {
     visibility: visible;
 }
+.stocking-text{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;/*
+    margin-bottom: 15px;*/
+    margin-top: 0px;
+    color: #666;
+    padding: 30px;
+}
+.background-color-white{
+    background: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:0px 0px 10px #444;
+    border:1px solid #444;
+}
 /* Team
 ---------------------------------------- */
+.company {
+width: 100%;
+margin-top: 35px;
+}
+ 
+.company th,
+.company td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+ 
+.company th {
+font-weight: bold;
+background-color: #dedede; 
+}
+ 
+@media screen and (max-width: 767px) {
+.no-display-sp{
+    display: none;
+}
+
+.company,
+.company tr,
+.company td,
+.company th {display:block;}
+.company th {width:auto;}
+}
 
 .team {
     background-color: #efefef;
@@ -1908,14 +1958,14 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 ---------------------------------------- */
 
 .facts {
-    background: url("../img/sections/facts-bg.jpg");
+    background: url("../img/shiire_bg1.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 110%;
 }
 .fact-badges {
-    margin-top: 65px;
+/*    margin-top: 65px;*/
     text-align: center;
 }
 .fact-badges h2 {
@@ -2406,7 +2456,7 @@ ul.pagination li a:hover {
 ---------------------------------------- */
 
 .contact {
-    background-color: #efefef;
+    background-color: #fff;
 }
 .contact .container:first-child {
     padding: 70px 15px 30px !important;
@@ -2883,11 +2933,17 @@ ul.bxslider img {
         float: none;
         margin: 0 auto 50px;
     }
+            .no-display-pc{
+    display: none;
+}
 }
 
 /* Small Devices */
 
 @media (max-width: 991px) {
+        .no-display-pc{
+    display: none;
+}
     .projectmanager {
         text-align: center;
     }
@@ -2969,6 +3025,10 @@ ul.bxslider img {
 /* Extra Small Devices */
 
 @media (max-width: 767px) {
+    .no-display-sp{
+    display: none;
+}
+
     .about .container,
     .services .container,
     .portfolio .container,
@@ -2979,6 +3039,7 @@ ul.bxslider img {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
+
     .header-inner,
     .videopromotion p,
     .newsletter p,
@@ -2992,7 +3053,7 @@ ul.bxslider img {
         padding-right: 0;
     }
     h1 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 40px;
     }
     h2 {
@@ -3121,8 +3182,17 @@ ul.bxslider img {
     .output_message_holder {
         margin-top: 30px;
     }
+    .background-color-white {
+    width: 90%;
+}
+.testimonials #quote-carousel p {
+    width: 90%;
+}
 }
 @media (max-width: 576px) {
+    .no-display-sp{
+    display: none;
+}
     .portfolio .filtr-item {
         padding-left: 0;
         padding-right: 0;

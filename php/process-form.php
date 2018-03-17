@@ -2,12 +2,11 @@
 if (isset($_REQUEST['firstname'],$_REQUEST['email'])) {
       
     $firstname = $_REQUEST['firstname'];
-	$lastname = $_REQUEST['lastname'];
     $email = $_REQUEST['email'];
     $message = $_REQUEST['message'];
       
     // Set your email address where you want to receive emails. 
-    $to = 'yourmail@mail.com';
+    $to = 'ina-river.914@i.softbank.jp';
       
     $subject = 'Contact Request From Website';
     $headers = "From: ".$firstname." <".$email."> \r\n";

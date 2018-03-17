@@ -1,5 +1,5 @@
 /* =================================================================== */
-/* Yellowgreen #9acd32
+/* Yellowgreen #00ab47
 ====================================================================== */
 h1 > span,
 .projectmanager h3,
@@ -28,12 +28,12 @@ span.heart,
 .nav-menu-icon.active a, .nav-menu-icon a.active, .nav-menu-icon:hover a, .nav-menu-icon a:hover, .nav-menu ul.nav-menu-inner li.active a, .nav-menu ul.nav-menu-inner li a.active, .nav-menu ul.nav-menu-inner li:hover a, .nav-menu ul.nav-menu-inner li a:hover, .header-fixed .nav-menu ul.nav-menu-inner li a.current, .header-fixed .nav-menu ul.nav-menu-inner li.current a
 body.dark .nav-menu-icon.active a, body.dark .nav-menu-icon a.active, body.dark .nav-menu-icon:hover a, body.dark .nav-menu-icon a:hover, body.dark .nav-menu ul.nav-menu-inner li.active a, body.dark .nav-menu ul.nav-menu-inner li a.active, body.dark .nav-menu ul.nav-menu-inner li:hover a, body.dark .nav-menu ul.nav-menu-inner li a:hover, body.dark .header-fixed .nav-menu ul.nav-menu-inner li a.current, body.dark .header-fixed .nav-menu ul.nav-menu-inner li.current a,
 .btn-wrapper a {
-    color: #9acd32;
+    color: #00ab47;
 }
 .custom-colorRotatingWords,
 .team .social-icons ul.social li a:hover,
 .team .social-icons ul.social li a:hover:before {
-	color: #9acd32 !important;
+	color: #fff !important;
 }
 .custom-button,
 .portfolio .nav-pills li:hover,
@@ -57,74 +57,74 @@ body.double-diagonal .contact::before,
 body.double-diagonal .logos::before,
 .team-member:hover .team-member-caption,
 .btn-wrapper a:hover  {
-    background-color: #9acd32;
+    background-color: #00ab47;
 }
 .about-right-side .full-image-container.hovered:before  {
-	border-left: 5px solid #9acd32;
+	border-left: 5px solid #00ab47;
 }
 .projectmanager blockquote,
 #quote-carousel .carousel-indicators .active {
-    border-color: #9acd32;
+    border-color: #00ab47;
 }
 .blog-page ul.pagination li.active a, body.dark.blog-page ul.pagination li.active a  {
-	border-color: #9acd32;
+	border-color: #00ab47;
 }
 .projectmanagerpicture {
-    border: 12px solid #9acd32;
+    border: 5px solid #fff;
 }
 .portfolio .nav-pills li {
-    border: 2px solid #9acd32;
+    border: 2px solid #00ab47;
 }
 #back-top a {
-    border: 2px solid #9acd32;
+    border: 2px solid #00ab47;
 }
 .blog-page .banner .content .top-text hr {
-	border-top:5px solid #9acd32;
+	border-top:5px solid #00ab47;
 }
 .portfolio .caption h3 {
-	border-left: 3px solid #9acd32;
+	border-left: 3px solid #00ab47;
 }
 .team-member-caption {
-	border-top: 3px solid #9acd32;
+	border-top: 3px solid #00ab47;
 }
 .social-icons ul.social-icons-team li a {
-	border: 2px solid #9acd32;
+	border: 2px solid #00ab47;
 }
 .social-icons ul li a{
-    border: 3px solid #9acd32;
+    border: 3px solid #00ab47;
 }
 .footer .social-icons ul li a {
-    border: 2px solid #9acd32;
+    border: 2px solid #00ab47;
 }
 .footer {
-    border-top: 2px solid #9acd32;
+    border-top: 2px solid #00ab47;
 }
 .social-icons ul.social-icons-team li a {
-    border: 2px solid #9acd32;
+    border: 2px solid #00ab47;
 }
 .preloader .loader {
   background: url(../../img/preloaders/preloader-yellowgreen.gif) 50% 50% no-repeat;
 }
 .btn-wrapper a {
-	border: 5px solid #9acd32;
+	border: 5px solid #00ab47;
 }
 .rtl-version .about-right-side .full-image-container.hovered:before {
-	border-right: 5px solid #9acd32;
+	border-right: 5px solid #00ab47;
 	border-left:0;
 }
 .rtl-version .projectmanager blockquote {
 	border-left: none;
-    border-right: 5px solid #9acd32;
+    border-right: 5px solid #00ab47;
 }
 .rtl-version .portfolio .caption h3 {
-	border-right: 3px solid #9acd32;
+	border-right: 3px solid #00ab47;
 }
 @media (max-width:767px){
 	.social-icons ul li a {
-		border: 2px solid #9acd32;
+		border: 2px solid #00ab47;
 	}
 	.about-right-side .full-image-container.hovered:before  {
-		border-top: 5px solid #9acd32;
+		border-top: 5px solid #00ab47;
 		border-left:none;
 	}
 	.rtl-version .about-right-side .full-image-container.hovered:before {

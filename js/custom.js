@@ -148,7 +148,7 @@
 		// TESTIMONIAL CAROUSEL
 		$("#quote-carousel").carousel({
 			wrap: true,
-			interval: 6000
+			interval: 4000
 		});
 		
 		// TESTIMONIAL CAROUSEL TOUCH OPTIMIZED
